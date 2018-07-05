@@ -60,6 +60,10 @@
   color: #fff;
 }
 
+.text-black {
+  color: #000000;
+}
+
 //
 .dark-trans,
 .toast-md .toast-wrapper {
@@ -212,6 +216,10 @@
   background-color: #3B5999;
 }
 
+.btn-signin {
+  background-color: #eddd28;
+}
+
 .btn-twitter {
   background-color: #00ACEE;
 }
@@ -300,8 +308,9 @@ ion-navbar.no-border {
   background-color: #fff;
   &::after {
     content: "";
-    background: url("../assets/img/bg.jpg") no-repeat;
+    //background: url("../assets/img/bg.jpg") no-repeat;
     background-size: cover;
+    background-color: #2A5bbd;
     top: 0;
     left: 0;
     bottom: 0;
@@ -320,11 +329,20 @@ ion-navbar.no-border {
       width: 86%;
 
       .logo {
-        width: 60px;
-        height: 60px;
-        margin: 20px auto 0;
+        width: 250px;
+        height: 180px;
+        margin: 60px auto 0;
         border-radius: 10%;
-        background: url("../assets/img/ionic3-ico.png") no-repeat;
+        background: url("../assets/img/logo_bakat.png") no-repeat;
+        background-size: 100%;
+      }
+
+      .logo2 {
+        width: 50px;
+        height: 100px;
+        margin: 10px auto 0;
+        border-radius: 10%;
+        background: url("../assets/img/logo_bakat.png") no-repeat;
         background-size: 100%;
       }
 
@@ -346,11 +364,11 @@ ion-navbar.no-border {
 
           ion-label {
             font-size: 1em;
-            color: color($colors, primary);
+            color: color($colors, light);
           }
 
           input {
-            color: color($colors, primary);
+            color: #fff;
           }
         }
       }

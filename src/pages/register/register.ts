@@ -15,7 +15,7 @@ export class RegisterPage {
 
   // register and go to home page
   register() {
-    this.nav.setRoot(HomePage);
+    this.nav.setRoot(LoginPage);
   }
 
   // go to login page

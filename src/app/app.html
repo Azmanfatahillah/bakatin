@@ -6,26 +6,26 @@
         <ion-row>
           <ion-col col-4>
               <div class="user-avatar">
-                <img src="../assets/img/avatar.jpeg">
+                <img src="../assets/img/aa.jpg">
               </div>
           </ion-col>
           <ion-col padding-top col-8>
             <h2 ion-text class="no-margin bold text-white">
-              João Firmino
+              Hafidz K.
             </h2>
-            <span ion-text color="light">Customer</span>
+            <span ion-text color="light">Murid</span>
           </ion-col>
         </ion-row>
 
         <ion-row no-padding class="other-data">
           <ion-col no-padding class="column">
-            <button ion-button icon-left small full color="light" menuClose disabled>
+            <button ion-button icon-left small full color="light" menuClose (click)="goToAccount()">
               <ion-icon name="contact"></ion-icon>
               Edit Profile
             </button>
           </ion-col>
           <ion-col no-padding class="column">
-            <button ion-button icon-left small full color="light" menuClose (click)="logout()">
+            <button ion-button icon-left small full color="dark" menuClose (click)="logout()">
               <ion-icon name="log-out"></ion-icon>
               Log Out
             </button>
