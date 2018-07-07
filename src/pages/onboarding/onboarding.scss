@@ -1,0 +1,105 @@
+page-home {
+    
+    .bg-image {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        width: 100%;
+        display: inline-block;
+        background-image: url('../assets/imgs/onboard1.png');
+    }
+
+    .bg-image2 {
+        background-image: url('../assets/imgs/onboard2.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-image3 {
+        background-image: url('../assets/imgs/onboard3.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-image4 {
+        background-image: url('../assets/imgs/onboard4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-image5 {
+        background-image: url('../assets/imgs/onboard5.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+
+    .button1 {
+        position: absolute;
+        left:    0;
+        bottom:   0;
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        color: #FFFFFF;
+    }
+
+    .button2 {
+        position: absolute;
+        right:    0;
+        bottom:   0;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        color: #FFFFFF;
+    }
+
+    .button3 {
+        position: absolute;
+        left: 4% ;
+        bottom:14% ;
+        background-color: #ffcc00;
+        margin: 1%;
+        padding: 3% 39%;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .button4 {
+        position: absolute;
+        left: 4% ;
+        bottom:5% ;
+        background-color: inherit;
+        border: 2px solid black;
+        border-color: #FFFFFF;
+        margin: 1%;
+        padding: 2% 36%;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+      
+    .swiper-pagination-bullet-active {
+          background:#FFFFFF;
+      }
+
+    .swiper-pagination {
+        bottom: 30% !important;
+    }
+
+    #skip {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        background: none !important;
+        text-align: center;
+        cursor: pointer;
+        z-index: 5;
+    }
+}

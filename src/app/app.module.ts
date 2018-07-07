@@ -17,6 +17,7 @@ import {MyApp} from "./app.component";
 import {SettingsPage} from "../pages/settings/settings";
 import {CheckoutTripPage} from "../pages/checkout-trip/checkout-trip";
 import {HomePage} from "../pages/home/home";
+import {OnboardingPage} from "../pages/onboarding/onboarding";
 import {LoginPage} from "../pages/login/login";
 import {NotificationsPage} from "../pages/notifications/notifications";
 import {RegisterPage} from "../pages/register/register";
@@ -44,7 +45,8 @@ import {LocalWeatherPage} from "../pages/local-weather/local-weather";
     RegisterPage,
     SearchLocationPage,
     TripDetailPage,
-    TripsPage
+    TripsPage,
+    OnboardingPage
   ],
   imports: [
     BrowserModule,
@@ -71,7 +73,8 @@ import {LocalWeatherPage} from "../pages/local-weather/local-weather";
     RegisterPage,
     SearchLocationPage,
     TripDetailPage,
-    TripsPage
+    TripsPage,
+    OnboardingPage
   ],
   providers: [
     StatusBar,

@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Keyboard } from '@ionic-native/keyboard';
 
 import { HomePage } from "../pages/home/home";
+import { OnboardingPage } from "../pages/onboarding/onboarding";
 import { LoginPage } from "../pages/login/login";
 import { LocalWeatherPage } from "../pages/local-weather/local-weather";
 import { SettingsPage } from "../pages/settings/settings";
@@ -23,7 +24,7 @@ export interface MenuItem {
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = LoginPage;
+  rootPage: any = OnboardingPage;
 
   appMenuItems: Array<MenuItem>;
 
