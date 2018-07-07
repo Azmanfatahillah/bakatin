@@ -1,3 +1,3 @@
-#Bakat-In
+# Bakat-In
 
-Aplikasi mobile apps
+Aplikasi bakat berbasis mobile apps
