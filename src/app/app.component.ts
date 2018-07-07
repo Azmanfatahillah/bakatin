@@ -11,6 +11,9 @@ import { LoginPage } from "../pages/login/login";
 import { LocalWeatherPage } from "../pages/local-weather/local-weather";
 import { SettingsPage } from "../pages/settings/settings";
 
+
+import { TabsPage } from '../pages/tabs/tabs';
+
 export interface MenuItem {
     title: string;
     component: any;
@@ -42,12 +45,13 @@ export class MyApp {
     ];
   }
 
+
   initializeApp() {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
 
       //*** Control Splash Screen
-      // this.splashScreen.show();
+      //this.splashScreen.show();
       // this.splashScreen.hide();
 
       //*** Control Status Bar
