@@ -3,6 +3,7 @@ import {NavController, AlertController, ToastController, MenuController} from "i
 import {HomePage} from "../home/home";
 import {RegisterPage} from "../register/register";
 import {TabsPage} from "../tabs/tabs";
+import {NotificationsPage} from "../notifications/notifications";
 
 @Component({
   selector: 'page-login',
@@ -21,7 +22,7 @@ export class LoginPage {
 
   // login and go to home page
   login() {
-    this.nav.setRoot(TabsPage);
+    this.nav.setRoot(NotificationsPage);
   }
 
   forgotPass() {

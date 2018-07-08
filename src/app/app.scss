@@ -337,6 +337,15 @@ ion-navbar.no-border {
         background-size: 100%;
       }
 
+      .logo3 {
+        width: 130px;
+        height: 70px;
+        margin: -20px auto 0;
+        // border-radius: 10%;
+        background: url("../assets/img/logo_bakat.png") no-repeat;
+        background-size: 100%;
+      }
+
       .logo2 {
         width: 50px;
         height: 100px;
@@ -376,10 +385,41 @@ ion-navbar.no-border {
   }
 }
 
-//TabsPage
+//TabsPage dan analisis
 .tabs {
 background-color: color($colors, primary) !important;
 }
+
+.tombol3 {
+    position: absolute;
+    left:3% ;
+    bottom:60% ;
+    background-color: #ffa500;
+    margin: 1%;
+    padding: 3% 38%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bg-bakat {
+    background-image: url('../assets/imgs/gitar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tombol2 {
+    position: absolute;
+    left: 3% ;
+    bottom:50% ;
+    background-color: #ffa500;
+    // border: 1px solid black;
+    // border-color: #FFFFFF;
+    margin: 1%;
+    padding: 3% 35.5%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
 // Menu user profile
 .user-profile {
   .user-avatar {
