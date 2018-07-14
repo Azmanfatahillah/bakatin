@@ -7,7 +7,7 @@ import {SettingsPage} from "../settings/settings";
 import {TripsPage} from "../trips/trips";
 import {SearchLocationPage} from "../search-location/search-location";
 import {TabsPage} from "../tabs/tabs";
-
+import {PilihBakat} from "../pilih_bakat/pilih_bakat";
 
 @Component({
   selector: 'page-home',
@@ -55,7 +55,7 @@ export class HomePage {
 
   presentNotifications(myEvent) {
     console.log(myEvent);
-    let popover = this.popoverCtrl.create(NotificationsPage);
+    let popover = this.popoverCtrl.create(PilihBakat);
     popover.present({
       ev: myEvent
     });

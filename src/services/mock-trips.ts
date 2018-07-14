@@ -1,7 +1,7 @@
 export let TRIPS = [
   {
     id: 1,
-    name: "Copacabana Beach",
+    name: "Aldi Khoirul",
     price_adult: 60,
     price_child: 30,
     time: "12h",
@@ -27,7 +27,7 @@ export let TRIPS = [
   },
   {
     id: 2,
-    name: "Christ the Redeemer",
+    name: "Dinda Alvin",
     price_adult: 90,
     price_child: 45,
     time: "4h",
@@ -42,7 +42,7 @@ export let TRIPS = [
   },
   {
     id: 3,
-    name: "Ipiranga Museum",
+    name: "Ipang Rangga",
     price_adult: 30,
     price_child: 15,
     time: "6h",
@@ -57,7 +57,7 @@ export let TRIPS = [
   },
   {
     id: 4,
-    name: "Fernando de Noronha",
+    name: "Fernando Alonso",
     price_adult: 500,
     price_child: 250,
     time: "24h",

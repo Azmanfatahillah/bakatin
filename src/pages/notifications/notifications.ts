@@ -21,7 +21,5 @@ export class NotificationsPage {
     // login() {
     //   this.nav.setRoot(NotificationsPage);
     // }
-  close() {
-    this.viewCtrl.dismiss();
-  }
+  
 }

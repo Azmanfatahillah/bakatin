@@ -41,7 +41,11 @@ export class MyApp {
 
     this.appMenuItems = [
       {title: 'Home', component: HomePage, icon: 'home'},
-      {title: 'Bakatku', component: LocalWeatherPage, icon: 'partly-sunny'}
+      {title: 'Edit Bakat', component: LocalWeatherPage, icon: 'card'},
+      {title: 'Pesan', component: SettingsPage, icon: 'mail'},
+      {title: 'Diskusi', component: SettingsPage, icon: 'contacts'},
+      {title: 'Hasil Task Anda', component: SettingsPage, icon: 'checkmark'},
+      {title: 'Help & Support', component: SettingsPage, icon: 'help-circle'}
     ];
   }
 

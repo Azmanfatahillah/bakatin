@@ -16,10 +16,10 @@ import { SettingsPage } from "../settings/settings";
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
+  tab1Root = TripsPage;
   tab2Root = SearchLocationPage;
-  tab3Root = TripsPage;
-  tab4Root = NotificationsPage;
+  tab3Root = null;
+  tab4Root = NotificationsPag;
   tab5Root = SettingsPage;
 
   constructor(public nav: NavController) {
