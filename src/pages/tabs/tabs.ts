@@ -19,7 +19,7 @@ export class TabsPage {
   tab1Root = TripsPage;
   tab2Root = SearchLocationPage;
   tab3Root = null;
-  tab4Root = NotificationsPag;
+  tab4Root = NotificationsPage;
   tab5Root = SettingsPage;
 
   constructor(public nav: NavController) {
