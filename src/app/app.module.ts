@@ -26,6 +26,10 @@ import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 import { TabsPage } from '../pages/tabs/tabs';
+import { CourseAwalPage } from "../pages/course-awal/course-awal";
+import { SearchPelatihPage } from "../pages/search-pelatih/search-pelatih";
+import { EventPage } from "../pages/event/event";
+// import { PilihBakatPage } from "../pages/pilih-bakat/pilih-bakat";
 
 // import services
 // end import services
@@ -48,7 +52,10 @@ import { TabsPage } from '../pages/tabs/tabs';
     TripDetailPage,
     TripsPage,
     OnboardingPage,
-    TabsPage
+    TabsPage,
+    CourseAwalPage,
+    SearchPelatihPage,
+    EventPage
   ],
   imports: [
     BrowserModule,
@@ -77,7 +84,10 @@ import { TabsPage } from '../pages/tabs/tabs';
     TripDetailPage,
     TripsPage,
     OnboardingPage,
-    TabsPage
+    TabsPage,
+    CourseAwalPage,
+    SearchPelatihPage,
+    EventPage
   ],
   providers: [
     StatusBar,

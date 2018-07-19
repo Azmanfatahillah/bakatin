@@ -1,0 +1,48 @@
+<ion-header>
+
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title align="center" >
+           <strong>Bakat-In</strong>
+        </ion-title>
+        <ion-buttons end>
+          <button ion-button tappable (click)="presentNotifications($event)">
+            <ion-icon name="notifications"></ion-icon>
+          </button>
+          <button ion-button tappable (click)="goToAccount()">
+            <ion-icon name="cog"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-searchbar [(ngModel)]="terms"></ion-searchbar>
+  <ion-item text-wrap>
+      <img src="../../assets/imgs/event1.png" float-left/>
+      <ion-title>Lomba Tari AKSARA Universitas 
+          Airlangga</ion-title>
+      Lomba Tari Tradisional Tingkat Nasional 
+      dan Lomba Karawitan 2017 di Universitas 
+      Airlangga ini adalah AKSARA yang memiliki 
+      singkatan Ajang Kreasi Seni Budaya Airlangga.
+  </ion-item>
+  <ion-item text-wrap>
+      <img src="../../assets/imgs/event1.png" float-left/>
+      Lomba Tari Tradisional Tingkat Nasional 
+      dan Lomba Karawitan 2017 di Universitas 
+      Airlangga ini adalah AKSARA yang memiliki 
+      singkatan Ajang Kreasi Seni Budaya Airlangga.
+  </ion-item>
+  <ion-item text-wrap>
+      <img src="../../assets/imgs/event1.png" float-left/>
+      Lomba Tari Tradisional Tingkat Nasional 
+      dan Lomba Karawitan 2017 di Universitas 
+      Airlangga ini adalah AKSARA yang memiliki 
+      singkatan Ajang Kreasi Seni Budaya Airlangga.
+  </ion-item>
+</ion-content>

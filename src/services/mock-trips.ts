@@ -8,7 +8,7 @@ export let TRIPS = [
     free_cancellation: 1,
     electric_voucher: 1,
     sub_name: "English Commentary Tour",
-    thumb: "assets/img/trip/thumb/trip_1.jpg",
+    thumb: "assets/imgs/homevideo1.png",
     description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
     location: "Rio de Janeiro, Brazil",
     images: [

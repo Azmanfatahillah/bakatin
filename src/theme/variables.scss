@@ -19,12 +19,14 @@ $background-color: #fff;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary: #4c6df9,
+  primary:#00A6FF,
   secondary: #5b5ef4,
   danger: #f53d3d,
   light: #75C4FD,
-  dark: #0039a2
+  dark: #0039a2,
+  abu: #858688,
 );
+
 
 // App Theme
 // --------------------------------------------------
@@ -42,3 +44,4 @@ $colors: (
 
 $ionicons-font-path: "../assets/fonts";
 @import "ionic.ionicons";
+

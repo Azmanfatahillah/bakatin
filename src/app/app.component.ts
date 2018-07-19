@@ -12,6 +12,7 @@ import { LocalWeatherPage } from "../pages/local-weather/local-weather";
 import { SettingsPage } from "../pages/settings/settings";
 
 
+
 import { TabsPage } from '../pages/tabs/tabs';
 
 export interface MenuItem {
